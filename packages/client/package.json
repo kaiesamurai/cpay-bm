@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier --write .",
+    "prepare": "cd .. && husky install client/.husky"
+  },
+  "dependencies": {
+    "@airstack/airstack-react": "^0.6.1",
+    "@safe-global/auth-kit": "^2.0.0",
+    "@safe-global/protocol-kit": "^2.0.0",
+    "@safe-global/relay-kit": "^2.0.0",
+    "@safe-global/safe-core-sdk-types": "^3.0.1",
+    "@web3auth/base": "^4.6.0",
+    "@web3auth/modal": "^4.6.2",
+    "@web3auth/no-modal": "^7.2.0",
+    "@web3auth/openlogin-adapter": "^4.6.0",
+    "@web3auth/safeauth-embed": "^0.0.0",
+    "anon-aadhaar-react": "^0.1.15",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "ethers": "^6.9.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "husky": "^9.0.11",
+    "postcss": "^8",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
